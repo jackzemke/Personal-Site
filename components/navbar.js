@@ -15,10 +15,10 @@ export default function NavBar() {
             href="https://www.linkedin.com/in/jack-zemke/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-blue-600 transition-colors"
+            className="hover:text-blue-600 transition-colors flex items-center"
             >
             <FaLinkedin className="w-5 h-5" />
-            </a>
+          </a>
           {/* <Link href="/projects">Projects</Link>
           <Link href="/contact">Contact</Link> */}
         </div>
