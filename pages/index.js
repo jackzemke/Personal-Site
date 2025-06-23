@@ -6,6 +6,7 @@ export default function Home() {
     <>
       <Head>
         <title>Home - Jack Zemke</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="relative z-0 flex min-h-screen flex-col items-center justify-center bg-gray-100 px-4">
         <div className="absolute inset-0 -z-10 overflow-hidden">
@@ -27,10 +28,10 @@ export default function Home() {
           />
         </div>
         <h1 className="text-5xl font-bold text-blue-700 text-center mb-4">
-          Hi, I'm Jack Zemke
+          Hi, I'm Jack Zemke!
         </h1>
-        <p className="text-lg text-gray-700 text-center max-w-xl mb-2">
-          I'm an AI developer and problem solver building intelligent tools at the intersection of AI and real-world application.
+        <p className="text-lg text-gray-700 text-center mb-2">
+          I'm an AI developer excited about building tools that impact business in real, tangible ways.
         </p>
         <p className="text-md text-gray-700 text-center max-w-xl mb-8">
           This page is currently still under construction as I teach myself Node.js and web design. Come back soon!
