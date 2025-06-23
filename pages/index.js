@@ -28,10 +28,10 @@ export default function Home() {
           />
         </div>
         <h1 className="text-5xl font-bold text-blue-700 text-center mb-4">
-          Hi, I'm Jack Zemke!
+          Hi, I&apos;m Jack Zemke!
         </h1>
         <p className="text-lg text-gray-700 text-center mb-2">
-          I'm an AI developer excited about building tools that impact business in real, tangible ways.
+          I&apos;m an AI developer excited about building tools that impact business in real, tangible ways.
         </p>
         <p className="text-md text-gray-700 text-center max-w-xl mb-8">
           This page is currently still under construction as I teach myself Node.js and web design. Come back soon!
