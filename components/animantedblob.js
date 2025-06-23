@@ -11,11 +11,11 @@ export default function AnimatedBlob({ className, style }) {
   useEffect(() => {
     const interval = setInterval(() => {
       setTarget({
-        x: (Math.random() - 0.5) * 60,   // random between -30 and +30
+        x: (Math.random() - 0.5) * 60,  
         y: (Math.random() - 0.5) * 60,
-        scale: 0.9 + Math.random() * 0.3 // random between 0.9 and 1.2
+        scale: 0.9 + Math.random() * 0.3 
       });
-    }, 4000); // every 4 seconds
+    }, 2000); 
 
     return () => clearInterval(interval);
   }, []);

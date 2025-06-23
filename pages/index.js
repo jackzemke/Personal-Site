@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import AnimatedBlob from '../components/animantedblob';
 import { Analytics } from "@vercel/analytics/next"
+import NavBar from '@/components/navbar';
 
 export default function Home() {
   return (
@@ -10,7 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="relative z-0 flex min-h-screen flex-col items-center justify-center bg-gray-100 px-4">
-        <div className="absolute inset-0 -z-10 overflow-hidden">
+        <NavBar/>
+        {/* ***background blobs below*** */}
+        <div className="absolute inset-0 -z-10 overflow-hidden"> 
           <AnimatedBlob
             className="bg-pink-400"
             style={{ top: '5%', left: '0%', width: 800, height: 800 }}
@@ -41,10 +44,13 @@ export default function Home() {
           href="https://github.com/jackzemke/Entergy-AI"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition"
+          className="bg-blue-600 text-white text-center px-6 py-3 rounded-md hover:bg-blue-700 transition"
         >
         Or, in the meantime, view my most recent project!
       </a>
+      <footer className="fixed bottom-0 w-full text-center text-xs text-gray-500 pb-2">
+      © 2025 Jack Zemke. All rights reserved.
+      </footer>
       </main>
       <Analytics />
     </>
