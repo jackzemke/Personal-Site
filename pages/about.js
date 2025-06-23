@@ -26,11 +26,17 @@ export default function About() {
         </div>    
       <h1 className="text-4xl font-semibold mb-4 text-blue-700">About Me</h1>
       <p className="text-gray-700 max-w-2xl text-center leading-relaxed">
-        Hi! I&apos;m Jack Zemke. I am a software developer and AI enthusiast excited about building tools that help people work smarter. 
+        Hi! I&apos;m Jack Zemke. I am a software and AI developer excited about building tools that help people work smarter. 
         I recently graduated from Tulane, and I&apos;ve managed the full lifecycle of numerous 
         AI systems in both academic and industry settings, from conception all the way to deployment.
         <br /><br />
-        I care deeply about ensuring AI is used responsibly, providing clarity in design, and creating systems that feel intuitive and powerful.
+        I care deeply about ensuring AI is used responsibly, while still creating systems that feel intuitive and powerful
+      </p>
+      <p className = "text-gray-700 max-w-2xl text-center mt-8 leading-relaxed">
+        Feel free to reach out to me via LinkedIn!
+      </p>
+      <p className = "text-gray-500 max-w-2xl text-center text-xs leading-relaxed">
+        (Found at the icon at the top right of the screen)
       </p>
     <footer className="fixed bottom-0 w-full text-center text-xs text-gray-500 pb-2">
       © 2025 Jack Zemke. All rights reserved.
