@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import AnimatedBlob from '../components/animantedblob';
+import { Analytics } from "@vercel/analytics/next"
 
 export default function Home() {
   return (
@@ -45,6 +46,7 @@ export default function Home() {
         Or, in the meantime, view my most recent project!
       </a>
       </main>
+      <Analytics />
     </>
   );
 }
