@@ -38,7 +38,7 @@ export default function Home() {
           I&apos;m an AI developer excited about building tools that impact business in real, tangible ways.
         </p>
         <p className="text-md text-gray-700 text-center max-w-xl mb-8">
-          This page is currently still under construction as I teach myself Node.js and web design. Come back soon!
+          This page is currently still under construction as I teach myself Next.js and web design. Come back soon!
         </p>
         <a
           href="https://github.com/jackzemke/Entergy-AI"

@@ -6,7 +6,7 @@ export default function NavBar() {
     <nav className="w-full fixed top-0 left-0 z-50 bg-blue-100/25 backdrop-blur-xl shadow-lg">
       <div className="max-w-5xl mx-auto flex items-center justify-between px-6 py-4">
         <div className="text-lg font-semibold text-blue-700 tracking-wide">
-          Jack Zemke
+          <Link href="/">Jack Zemke</Link>
         </div>
         <div className="flex gap-6 text-sm text-blue-600 font-medium">
           <Link href="/">Home</Link>
