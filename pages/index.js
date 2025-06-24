@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Head>
         <title>Home - Jack Zemke</title>
-        <link rel="icon" href="/favicon1.ico" />
+        <link rel="icon" href="/bold.ico" />
       </Head>
       <main className="relative z-0 flex min-h-screen flex-col items-center justify-center bg-gray-100 px-4">
         <NavBar/>
