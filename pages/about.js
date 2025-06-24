@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-6">
     <NavBar/>
-    <div className="absolute inset-0 -z-10 overflow-hidden"> 
+    <div className="fixed inset-0 -z-10 overflow-hidden"> 
           <AnimatedBlob
             className="bg-pink-400"
             style={{ top: '5%', left: '0%', width: 800, height: 800 }}

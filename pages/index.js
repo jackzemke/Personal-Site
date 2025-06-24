@@ -10,10 +10,10 @@ export default function Home() {
         <title>Home - Jack Zemke</title>
         <link rel="icon" href="/bold.ico" />
       </Head>
-      <main className="relative z-0 flex min-h-screen flex-col items-center justify-center bg-gray-100 px-4">
+      <main className="relative z-0 flex min-h-screen flex-col items-center justify-center px-4">
         <NavBar/>
         {/* ***background blobs below*** */}
-        <div className="absolute inset-0 -z-10 overflow-hidden"> 
+        <div className="fixed inset-0 -z-10 overflow-hidden"> 
           <AnimatedBlob
             className="bg-pink-400"
             style={{ top: '5%', left: '0%', width: 800, height: 800 }}
