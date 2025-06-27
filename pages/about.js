@@ -1,9 +1,16 @@
 
+import Head from 'next/head';
 import AnimatedBlob from '../components/animantedblob';
 import NavBar from '@/components/navbar';
 
 export default function About() {
   return (
+    <>
+    <Head>
+        <title>
+            About - Jack Zemke
+        </title>
+    </Head>
     <div className="min-h-screen flex flex-col items-center justify-center px-6">
     <NavBar/>
     <div className="fixed inset-0 -z-10 overflow-hidden"> 
@@ -42,5 +49,6 @@ export default function About() {
       © 2025 Jack Zemke. All rights reserved.
       </footer>
     </div>
+    </>
   );
 }
